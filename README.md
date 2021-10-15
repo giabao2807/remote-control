@@ -33,4 +33,4 @@ chức năng là gửi hiển thị màn hình máy tính của client trong m�
 
 # ---- Notes: sử dụng Method Class Robot trong java để handle chuột cho phép di chuyển chuột 	từ máy chủ server ứng với máy khách client
 
-![image](https://user-images.githubusercontent.com/79961660/137519454-7bfc9e9b-9d38-4f7e-83a1-5b62b87d901c.png)
+
