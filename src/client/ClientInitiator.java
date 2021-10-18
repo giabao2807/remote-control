@@ -43,10 +43,12 @@ public class ClientInitiator {
 			// Prepare Robot object
 			robot = new Robot(gDev);
 
-			// drawGUI();
+			GUI();
 			// ScreenSpyer sends screenshots of the client screen
+			new ScreenSpyer(socket, robot, rectangle);
 
 			// Serverdelegate recieves server commands and execute them
+			new ServerDelegate(socket, robot);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
